@@ -1,0 +1,1208 @@
+{
+  "Scope-Statement-Template_v3.docx": {
+    "file": "Scope-Statement-Template_v3.docx",
+    "paragraphs": [
+      {
+        "style": "Title",
+        "text": "[Project Name] – Scope Statement"
+      },
+      {
+        "style": "DocInfoHeading",
+        "text": "Document Information"
+      },
+      {
+        "style": "Heading 1",
+        "text": "Project Overview"
+      },
+      {
+        "style": "Normal",
+        "text": "2-3 sentence description of this project. Include the primary business driver and a summary of the scope."
+      },
+      {
+        "style": "Normal",
+        "text": "“We want to support the efficiency of our claim agents and reduce the number of follow-up calls by home owners and contractors to check on the status of their claims and repairs. This project involves building a mobile application that will support all aspects of the onsite claims process, integrate with our customer service software, and provide online to home owners and contractors so they can view the status of all aspects of their claim and upload supporting documentation.”"
+      },
+      {
+        "style": "Heading 1",
+        "text": "Expected Benefits"
+      },
+      {
+        "style": "Template Instructions",
+        "text": "Insert a list of the 2-5 inter-related business goals or objectives that will be the focus of the initiative. Be sure these are high-level outcomes desired by the business, and not solutions. Consider what will be possible once a solution is implemented, how you will measure the effectiveness of the solution, and why the solution is important to the business."
+      },
+      {
+        "style": "Template Instructions",
+        "text": "For example, a specific change effort may have an objective of increasing the number of new customers by 10% by making the sales process more efficient and enabling each salesperson to close more sales."
+      },
+      {
+        "style": "Template Instructions",
+        "text": "In this case, the business objectives could be:"
+      },
+      {
+        "style": "Template Instructions",
+        "text": "Increase the number of new customers each month by 10%, compared to the previous year’s baselines."
+      },
+      {
+        "style": "Template Instructions",
+        "text": "Reduce the number of hours required by a salesperson to close a new customer by 10 hours."
+      },
+      {
+        "style": "Normal",
+        "text": "Our objectives include:"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Reduce average time a claim agent spends preparing and submitting a claim from 8 business hours to 6 or less."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Reduce follow-up calls to check on claim status by home owners by 50%."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Reduce follow-up calls by contractors by 50%."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Increase adoption of home owner use of the online web application by 30%."
+      },
+      {
+        "style": "Heading 1",
+        "text": "Capabilities"
+      },
+      {
+        "style": "Template Instructions",
+        "text": "Identify the capabilities of the solution to achieve the desired business objectives. Solution options can include business processes and improvements, business functions, software solutions, technologies to be changed or replaced, system integrations, organizations/organizational units, and informational assets."
+      },
+      {
+        "style": "Template Instructions",
+        "text": "Capabilities are often best organized in sub-groups. When working on software-related initiatives, it’s common to focus on the software capabilities. Be sure to consider the business functions, processes, and information as well."
+      },
+      {
+        "style": "Heading 2",
+        "text": "Subgroup A Name"
+      },
+      {
+        "style": "Heading 2",
+        "text": "Sub-Group A"
+      },
+      {
+        "style": "Heading 2",
+        "text": "Subgroup B Name"
+      },
+      {
+        "style": "Heading 1",
+        "text": "Assumptions"
+      },
+      {
+        "style": "Template Instructions",
+        "text": "List any items you believe to be true but have not explicitly verified. For example, you might assume that a third-party vendor will not release a new version of an interdependent system before this project is delivered."
+      },
+      {
+        "style": "Heading 1",
+        "text": "Constraints"
+      },
+      {
+        "style": "Template Instructions",
+        "text": "List any known constraints on the solution approach, such as the budget, timeline, resources, regulatory requirements, or existing systems, platforms, functions that must be part of the solution. For example, the initiative may be limited to a certain team’s availability within 3 calendar months and need to be built using the capabilities of an existing COTS the organization has already licensed."
+      },
+      {
+        "style": "Heading 1",
+        "text": "Out of Scope"
+      },
+      {
+        "style": "Template Instructions",
+        "text": "List of capabilities that are explicitly NOT in scope."
+      },
+      {
+        "style": "Heading 1",
+        "text": "Visual Models"
+      },
+      {
+        "style": "Template Instructions",
+        "text": "A 1-page system context diagram provides a visual model of the project scope and represents the major roles, processes, and features."
+      },
+      {
+        "style": "Heading 1",
+        "text": "Open Issues"
+      },
+      {
+        "style": "Template Instructions",
+        "text": "A list of any issues documented during the scoping process.  Closed issues will be accompanied by a detailed resolution.  Open issues will have owners from the business team and commitment dates. Upon validating this document, you may choose to transfer any open issues to an actively maintained issues list for the project remove this section or replace it with a reference to the project’s issue list."
+      },
+      {
+        "style": "DocInfoHeading",
+        "text": "Revision History"
+      }
+    ],
+    "tables": [
+      {
+        "table_index": 1,
+        "rows": [
+          [
+            "Document Title",
+            ""
+          ],
+          [
+            "Business Sponsor",
+            "The person who has final authority regarding the project scope and budget."
+          ],
+          [
+            "Prepared By",
+            "This will likely be you!"
+          ],
+          [
+            "Stakeholders",
+            "List all contributors, with titles. Alternatively, refer to a RACI matrix."
+          ],
+          [
+            "Version",
+            ""
+          ],
+          [
+            "Status",
+            ""
+          ],
+          [
+            "Date",
+            ""
+          ]
+        ]
+      },
+      {
+        "table_index": 2,
+        "rows": [
+          [
+            "ID",
+            "Capability"
+          ],
+          [
+            "A1",
+            ""
+          ],
+          [
+            "A2",
+            ""
+          ],
+          [
+            "…",
+            ""
+          ],
+          [
+            ""
+          ]
+        ]
+      },
+      {
+        "table_index": 3,
+        "rows": [
+          [
+            "ID",
+            "Capability"
+          ],
+          [
+            "A1",
+            "Claims agent can complete all aspects of preparing and submitting a claim, including: Video walk-through Supporting images Complete claim documentation"
+          ],
+          [
+            "A2",
+            "Customer can upload supporting documentation, such as quotes and invoices to the claim."
+          ],
+          [
+            "A3",
+            "Contractor can upload supporting documentation, such as insurance, quotes, and invoices to the claim."
+          ],
+          [
+            "A4",
+            "Ability for customer and contractor to create and update profile information that can be reused across claims."
+          ],
+          [
+            "A5",
+            "Review the current claim documentation requirements and business rules, and explore opportunities to simplify."
+          ]
+        ]
+      },
+      {
+        "table_index": 4,
+        "rows": [
+          [
+            "ID",
+            "Capability"
+          ],
+          [
+            "B1",
+            ""
+          ],
+          [
+            "B2",
+            ""
+          ],
+          [
+            "…",
+            ""
+          ],
+          [
+            ""
+          ]
+        ]
+      },
+      {
+        "table_index": 5,
+        "rows": [
+          [
+            "V.",
+            "Date",
+            "Author",
+            "Description",
+            "Status"
+          ],
+          [
+            ""
+          ],
+          [
+            ""
+          ]
+        ]
+      }
+    ]
+  },
+  "Business-Process-Template_v3.docx": {
+    "file": "Business-Process-Template_v3.docx",
+    "paragraphs": [
+      {
+        "style": "Title",
+        "text": "[Title] Process"
+      },
+      {
+        "style": "DocInfoHeading",
+        "text": "Document Information"
+      },
+      {
+        "style": "Heading 1",
+        "text": "Purpose"
+      },
+      {
+        "style": "Template Instructions",
+        "text": "Outline the purpose of the Process document, the purpose of the process, and the scope of the process. It may make sense to include an explanation of whether this is an “as is” or “to be” process. Often it makes sense to include a sentence as follows: This process starts when <description of starting point> and ends when <description of ending point>. In general keep this section short – 2-4 sentences is a good guideline."
+      },
+      {
+        "style": "Heading 1",
+        "text": "Entry Criteria"
+      },
+      {
+        "style": "Template Instructions",
+        "text": "Bullet -point the entry criteria for the process.  What must be present before this effort can begin successfully?  For example, before an offer can be made to a potential employee, the manager must have the appropriate budget allocated. Typically, the owner of the process determines the Entry Criteria."
+      },
+      {
+        "style": "Heading 1",
+        "text": "Inputs"
+      },
+      {
+        "style": "Template Instructions",
+        "text": "Bullet-point the tangible inputs for this process – these are deliverables that the person responsible for initiating the process receives in either physical or electronic form. (A deliverable could be an email, a document, an updated database entry, a fax, etc.) For example, an input for the “Make Job Offer Process” might be an approved job description."
+      },
+      {
+        "style": "Heading 1",
+        "text": "Workflow Diagram"
+      },
+      {
+        "style": "Template Instructions",
+        "text": "Include a visual diagram of the workflow indicating the relationship between activities in the process. Most modeling tools allow you to export a .jpg file that can be copied here. If you are using Visio, you can often select all and paste your model here."
+      },
+      {
+        "style": "Heading 1",
+        "text": "Activity Descriptions"
+      },
+      {
+        "style": "Template Instructions",
+        "text": "Describe each of the activities of the process in narrative form. Use headers as appropriate.  If you’ve included a visual work-flow diagram or have created related process documents, be sure to use consistent terminology in describing each step or activity."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "First activity"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Second activity"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "…."
+      },
+      {
+        "style": "Heading 1",
+        "text": "Exceptions"
+      },
+      {
+        "style": "Template Instructions",
+        "text": "List the exceptions and describe the exception in narrative form."
+      },
+      {
+        "style": "Heading 1",
+        "text": "Business Rules"
+      },
+      {
+        "style": "Template Instructions",
+        "text": "If appropriate, include a list of relevant business rules here and reference the steps from the Activity Description section in which they are enforced. An example of a business rule for our “Make Job Offer” process might be “All job offers without a response after 10 business days are considered declined.” If your organization has a business rules repository, you might instead include a section to reference the appropriate business rules or embed links/references to those rules within the activity descriptions themselves and delete this section."
+      },
+      {
+        "style": "Heading 1",
+        "text": "Outputs"
+      },
+      {
+        "style": "Template Instructions",
+        "text": "Bullet-point the tangible outputs or deliverables for this process. For example, an output of the “Make a Job Offer” process could be a signed acceptance letter."
+      },
+      {
+        "style": "Heading 1",
+        "text": "Exit Criteria"
+      },
+      {
+        "style": "Template Instructions",
+        "text": "Bullet-point the exit criteria for the process.  What must be present before this effort can end successfully?  For example, exit criteria for the “Make a Job Offer” process could be that a firm decision to accept or decline the job offer is received from the candidate.  Typically, the entity that receives the output of the process sets the exit criteria.  If you are documenting multiple inter-related processes, these exit criteria would become the entry criteria for the next process."
+      },
+      {
+        "style": "Heading 1",
+        "text": "Roles & Responsibilities"
+      },
+      {
+        "style": "Template Instructions",
+        "text": "Add roles and bullet point responsibilities for each role. Remember that one person can fulfill more than one role in a process or multiple people can share the same role. For example, in our Make a Job Offer process, it may be that any HR representative can communicate the job offer to the candidate. Make sure the terms used here for roles and responsibilities are consistent with the terms in the Workflow Diagram and the Activity Description sections."
+      },
+      {
+        "style": "Template Instructions",
+        "text": "Note:  Often, this section is redundant with the Activity Description section and can be removed. It is useful when there is a lack of clarity about roles."
+      },
+      {
+        "style": "Heading 1",
+        "text": "Metrics"
+      },
+      {
+        "style": "Template Instructions",
+        "text": "Capture how the effectiveness of the process will be measured.  You might choose to use this section to be very specific and detail quantitative measures. For example, measures of customer service are duration of how long customers have to wait on the phone before their call is answered, or duration of how long before their issue is resolved.  Or, you could choose to include general measures of success, such as “increased customer satisfaction.”"
+      },
+      {
+        "style": "Template Instructions",
+        "text": "Note: Often, organizations bypass this step because they do not have the systems in place to measure the effectiveness of their processes."
+      },
+      {
+        "style": "DocInfoHeading",
+        "text": "Revision History"
+      },
+      {
+        "style": "Normal",
+        "text": "Copyright © 2023 Clear Spring Business Analysis LLC – All Rights Reserved."
+      }
+    ],
+    "tables": [
+      {
+        "table_index": 1,
+        "rows": [
+          [
+            "Document Title",
+            "Title of proces – Verb Noun phrasing is almost always the most appropriate!"
+          ],
+          [
+            "Document Owner",
+            ""
+          ],
+          [
+            "Version",
+            ""
+          ],
+          [
+            "Status",
+            ""
+          ],
+          [
+            "Date",
+            ""
+          ]
+        ]
+      },
+      {
+        "table_index": 2,
+        "rows": [
+          [
+            "Business Rule",
+            "Activity Step"
+          ],
+          [
+            ""
+          ],
+          [
+            ""
+          ],
+          [
+            ""
+          ]
+        ]
+      },
+      {
+        "table_index": 3,
+        "rows": [
+          [
+            "Role",
+            "Responsibility",
+            "Who Fulfills"
+          ],
+          [
+            ""
+          ],
+          [
+            ""
+          ],
+          [
+            ""
+          ]
+        ]
+      },
+      {
+        "table_index": 4,
+        "rows": [
+          [
+            "V.",
+            "Date",
+            "Author",
+            "Description",
+            "Status"
+          ],
+          [
+            ""
+          ],
+          [
+            ""
+          ]
+        ]
+      }
+    ]
+  },
+  "Use-Case-Template_v3.docx": {
+    "file": "Use-Case-Template_v3.docx",
+    "paragraphs": [
+      {
+        "style": "Title",
+        "text": "[Title] Use Case"
+      },
+      {
+        "style": "DocInfoHeading",
+        "text": "Document Information"
+      },
+      {
+        "style": "Numeric Level 1 Heading",
+        "text": "Brief Description"
+      },
+      {
+        "style": "Template Instructions",
+        "text": "Insert a 1-2 sentence description of this use case. I find it especially helpful to use a “starts with / ends with” statement to clarify the beginning and ending points of the scope of this process or piece of functionality."
+      },
+      {
+        "style": "Numeric Level 1 Heading",
+        "text": "Actors"
+      },
+      {
+        "style": "Template Instructions",
+        "text": "List any roles or systems involved with this process or use case. A person or system fulfilling a role will be the actor in one of the steps."
+      },
+      {
+        "style": "Numeric Level 1 Heading",
+        "text": "Pre-Conditions"
+      },
+      {
+        "style": "Template Instructions",
+        "text": "List anything that must be true before this process or functionality begins. A common example is that a specific Actor has logged into the System."
+      },
+      {
+        "style": "Numeric Level 1 Heading",
+        "text": "Basic Flow"
+      },
+      {
+        "style": "Template Instructions",
+        "text": "The basic flow is the normal course of events, otherwise called the “happy path.” Ask yourself, what happens most of the time and you’ll discover the steps that belong here. You’ll want your basic flow to cover the full scope of activities between the starts with and ends with."
+      },
+      {
+        "style": "Template Instructions",
+        "text": "Create a numbered list of each step below. I recommend using the Word “numbered list” functionality to automatically number the list."
+      },
+      {
+        "style": "Numeric Level 1 Heading",
+        "text": "Alternate/Exception Flows"
+      },
+      {
+        "style": "Template Instructions",
+        "text": "An alternate flow is a variation from the basic flow. Alternatives can be triggered at any step in the basic flow and often reinsert the actors back into the basic flow."
+      },
+      {
+        "style": "Template Instructions",
+        "text": "An exception flow is an error, or a negative condition. When an exception is encountered, it prevents the process from finishing through to its conclusion until it’s addressed."
+      },
+      {
+        "style": "Template Instructions",
+        "text": "Number your alternate and exception flows to indicate the step at which the variation occurs. For example, a variation on step 3 could be listed as 3a and a second variation as 3b, and so forth."
+      },
+      {
+        "style": "Template Instructions",
+        "text": "Describe the alternate functionality and then identify at what step in the basic flow this variation picks back up."
+      },
+      {
+        "style": "Numeric Level 1 Heading",
+        "text": "Post Conditions"
+      },
+      {
+        "style": "Template Instructions",
+        "text": "Post-conditions indicate what must be true after the steps of the use case are complete. These should be true for the basic flow and all alternate flows. Exception flows may have different post-conditions or none at all."
+      },
+      {
+        "style": "Numeric Level 1 Heading",
+        "text": "Supplemental Requirements"
+      },
+      {
+        "style": "Template Instructions",
+        "text": "This is a special section I use to hold miscellaneous requirements related to the use case. Often you’ll find BAs including a Business Rules section or other collection of information related to the use case. These may or may not be actual requirements – you’ll want to establish a clear pattern and communicate that clearly and ensure it’s consistent with how your organization documents this type of requirement. I’ve also used this section to capture the most salient decisions and notes so they are stored right with the use case for future consideration. This is not a standard practice but it can be extremely effective in an informal environment."
+      },
+      {
+        "style": "Numeric Level 1 Heading",
+        "text": "Visual Model"
+      },
+      {
+        "style": "Template Instructions",
+        "text": "Many use cases are enhanced by a visual model. A simple work-flow diagram can be used to visually show the sequence of steps and alternate and exception flows. A user interface mock-up can be used to show a possible representation of these user requirements in an interface (or a desired representation). In some organizations, a more formal UML diagram may be appropriate."
+      },
+      {
+        "style": "DocInfoHeading",
+        "text": "Revision History"
+      },
+      {
+        "style": "Normal",
+        "text": "Copyright © 2023 Clear Spring Business Analysis LLC – All Rights Reserved."
+      }
+    ],
+    "tables": [
+      {
+        "table_index": 1,
+        "rows": [
+          [
+            "Document Title",
+            "Title of use case – Verb Noun phrasing is almost always the most appropriate!"
+          ],
+          [
+            "Document Owner",
+            ""
+          ],
+          [
+            "Version",
+            ""
+          ],
+          [
+            "Status",
+            ""
+          ],
+          [
+            "Date",
+            ""
+          ]
+        ]
+      },
+      {
+        "table_index": 2,
+        "rows": [
+          [
+            "V.",
+            "Date",
+            "Author",
+            "Description",
+            "Status"
+          ],
+          [
+            ""
+          ],
+          [
+            ""
+          ]
+        ]
+      }
+    ]
+  },
+  "ReqChecklist-SupportCustomers_v2.docx": {
+    "file": "ReqChecklist-SupportCustomers_v2.docx",
+    "paragraphs": [
+      {
+        "style": "Title",
+        "text": "Support Customers –"
+      },
+      {
+        "style": "Title",
+        "text": "A Requirements Checklist"
+      },
+      {
+        "style": "Normal",
+        "text": "This checklist is 1 of 18 included in the full Requirements Discovery Checklist Pack."
+      },
+      {
+        "style": "Heading 1",
+        "text": "Feature Overview"
+      },
+      {
+        "style": "Normal",
+        "text": "Before, during, and after receiving a new order and fulfilling the order, a customer may require support. Support can range from questions about a product or service to addressing issues with a product or service that has already been received. This feature covers the process of receiving a customer support request, being sure the most appropriate person addresses the request, and managing the process of resolving requests."
+      },
+      {
+        "style": "Heading 1",
+        "text": "Common Applications"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Amazon – Using Amazon’s online system, a customer is able to initiate specific types of requests, such as returning or replacing items."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Zappos – This online shoe retailer is known for its customer support, free shipping, and lenient return policy. They handle requests online or over the phone."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Vanguard – Vanguard, a financial services company, provides a toll-free phone number for customers to call and get support for their account. Vanguard also provides a secure online contact form and messaging system through its website, which helps protect its customer’s sensitive financial information."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Google – Try to get in touch with Google – it’s pretty hard, even if you are a content provider or advertiser. Part of the reason they can scale is most of their products are self-service and customer support is provided in the way of online documentation."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Target – Like most retailers, Target has a specific desk to provide customer service. At this desk, buyers can return or exchange purchased items."
+      },
+      {
+        "style": "Heading 1",
+        "text": "Business Benefits"
+      },
+      {
+        "style": "Normal",
+        "text": "Customer service can be a differentiator between different organizations providing similar types of products and services. Improvements to the degree or effectiveness of support provided can help secure loyal customers and repeat purchasers. At the same time, customer service is a time-intensive and often manual activity, and introducing technology to make the process more efficient is often necessary to provide best-in-class service."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Brand Awareness – The internet has made it possible for customers to share their opinions of bad service on their personal social media profiles (such as Facebook and Twitter) as well as on various online review sites. Ineffective service can lead to a negative brand image. While raving about positive service is a less frequent activity, providing best-in-class service can be a significant part of an organization’s brand over time."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Increased Revenue – Efficient, effective, and friendly customer service can lead to loyal customers and repeat purchasers."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Increased Efficiency – Introducing technology to support customer service professionals can increase how quickly they are able to triage, route, and respond to customer requests. This leads to a better customer experience as well as the ability to scale to handle more customers."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Minimize Costs – Automation efforts can minimize the costs of providing service. Online help documentation and easy-to-use websites and products can reduce the number of emails and calls asking common questions as customers are able to help themselves."
+      },
+      {
+        "style": "Heading 1",
+        "text": "Key Concepts"
+      },
+      {
+        "style": "Heading 1",
+        "text": "Requirements Questions"
+      },
+      {
+        "style": "Heading 2",
+        "text": "What Is the Scope of Your Customer Service?"
+      },
+      {
+        "style": "Normal",
+        "text": "Customer service is an area of your organization that can quickly grow to include many activities. It’s important to define the scope of the service you can provide."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Who do you provide service to? Options include:"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "People who are interested in learning more about your products and services but have not yet purchased a product. (In some organizations, this happens as part of the sales process and is not in scope for customer service: See Purchase Product or Service.)"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Near-buyers who are in the middle of a sales transaction, such as checking out in your online shopping cart or with a cashier at a physical retailer. (Consider the scenario at the grocery store when you realize one of your eggs is broken as you are about to buy the carton. Some retailers will get you a new carton before you leave the store.)"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Buyers who are in the fulfillment process for a product or service. This could be a buyer who is waiting for their product to be manufactured and shipped, or a course participant who is part of an active course session."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Recent Buyers who have completed the fulfillment process but have issues with the product or service. For example, the shoes you receive from Zappos may not be the right color or size. Or you could discover a new issue with the website design you commissioned."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Previous Buyers who completed the fulfillment process a significant time in the past. (Your organization will need to determine where to draw the line between recent and previous buyers.)"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "What types of customer support requests can you handle? (The types of requests might be specific to each Product or Service you offer.) Common examples include:"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Returns"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Exchanges"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Extensions"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Payment issues"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Troubleshooting/Fixes"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Outages"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Questions"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Estimates"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "What types of customer support requests will you not handle? Consider the options above. It can also be helpful to consider some extreme examples that are beyond customer support (but may need to be handled through a separate escalation process). Here are some potential scenarios:"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "A visitor in your store slips and falls and can’t get up."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "A customer is irate with a cashier about the price of an item and refuses to pay or move."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "A customer is irate about their credit card being declined."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "An online visitor leaves an inappropriate comment."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "An online visitor attempts to sabotage the shopping cart."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "An angry recent buyer uses inappropriate language to complain about the product they received."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "How do you receive requests? Options include:"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Email"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Phone"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "In Person – anywhere or at a specified place?"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Instant Message"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Online Contact Form"
+      },
+      {
+        "style": "Normal",
+        "text": "See Communicate with Contacts."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "What days and times do you provide live customer support?"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "For asynchronous communication mechanisms, what is your promised turn-around time for customer support requests? Does the turn-around time vary by the type of request?"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "What kind of security is required for internal staff to provide customer service? Common options include:"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "None."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Requestor confirms identifying information associating them with an account (such as name, address, and last 4 digits of their social security number). See Manage Users and Permissions."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Requestor has specific permissions within their account. See Manage Users and Permissions."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Can buyers purchase any special or premium customer support? Examples include:"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Faster turn-around times on requests (or service level agreements)."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Direct contact or email support."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "A certain number of issues/fixes."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Unlimited questions."
+      },
+      {
+        "style": "Normal",
+        "text": "See Purchase Product or Service. (In this case, extra customer support would be a service.)"
+      },
+      {
+        "style": "Heading 2",
+        "text": "How Are New Customer Service Requests Triaged and Routed?"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "How is the type of request identified?"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Does the type of request need to be validated?"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Do any types of requests need to be escalated to different people or groups?"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Is it possible that requests are received by individuals who are not eligible for support? If so, how are these requests responded to or handled (if at all)?"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "For each type of request, who in your organization is qualified to address the request?"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "For each method of receiving a request, who in your organization is available to handle this type of request?"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "How does the request get routed to the person who can handle the request?"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Is a request routed to an individual person or a group of people?"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "If an individual, what happens if that individual is not available? Or not available for a period of time?"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "If a group of people, how does an individual select to handle a request?"
+      },
+      {
+        "style": "Heading 2",
+        "text": "How Are Requests Addressed?"
+      },
+      {
+        "style": "Normal",
+        "text": "For each type of request, consider the following questions:"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "What criteria are used to determine that the request is fully addressed?"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Must all requests be resolve successfully or are there situations in which an unsuccessful resolution would result in a complete request?"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "What needs to be done to resolve the request?"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "What communication happens with the requestor?"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Who is responsible for each type of communication? (“Who” in this case may be a system, as some of this communication may be automated.)"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "What information does an individual need at hand to resolve the request? How will they access this information? (For example, some organizations provide binders with scripts to handle different scenarios. Others provide detailed catalogs of product information and service offerings.) See Present Information."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Is there anyone else who needs to know about the request or the results of a request? (For example, if an individual employee reports an issue with their laptop, a manager at that organization may need to be aware of the issue.)"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Once a request is addressed, how is the result documented?"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Does the initiator of the request need to approve or validate that the request has been addressed satisfactorily?"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "There may be scenarios where the initiator of the request is responsible for the next step. In those cases, is there any follow-up? If so, consider the following questions:"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Who is responsible for it?"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "What is the timing of the follow-up?"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "How is the follow-up conducted?"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "At what point is follow-up suspended?"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "What happens if all follow-ups are complete and the issue is not addressed?"
+      },
+      {
+        "style": "Normal",
+        "text": "See Communicate with Contacts."
+      },
+      {
+        "style": "Heading 2",
+        "text": "How Are Requests Monitored?"
+      },
+      {
+        "style": "Normal",
+        "text": "In many cases, incoming support requests need to be monitored to ensure they are being satisfactorily addressed. Consider the following questions:"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "How often are incoming requests monitored?"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "What metrics are used for monitoring requests? Options include:"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Aging (length of time since request was received, typically looked at for unresolved requests)"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Severity of Requests"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Type of Request"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Response time (time between receiving the request and time it was addressed or the time between receiving the request and the first response)"
+      },
+      {
+        "style": "Normal",
+        "text": "See Create Report."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "What happens when requests are not dealt with according to the scope of service your organization has agreed to provide? (Some organizations provide daily or hourly management reports for review and follow-up. Others escalate individual issues to management as they exceed stated response times.)"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Who is responsible for reviewing and handling escalated requests? What actions will they take to handle the request?"
+      },
+      {
+        "style": "Heading 2",
+        "text": "How Can Customers Service Themselves?"
+      },
+      {
+        "style": "Normal",
+        "text": "Providing help documentation, whether it’s online or in printed form, can help potential customers answer questions about the products they are interested in and help recent or past customers resolve their own issues."
+      },
+      {
+        "style": "Normal",
+        "text": "For more information about creating a searchable repository of information, See Search for Information and Present Information."
+      },
+      {
+        "style": "Normal",
+        "text": "Consider the following questions that are specific to customer support documentation:"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "How does an individual know how to get in contact with your customer support organization? Consider the following examples:"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Website FAQ or Contact Us page"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Customer support email and/or phone number on a receipt or packaging."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Instant message pop-up box for website visitors."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Clear signage over a service desk at a store."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "What customer support questions or issues does your organization receive most frequently?"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "For each question or issue, where does it surface in your purchasing or fulfillment process?"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "What can you do in the steps preceding where the issue tends to surface to pre-empt the request? Consider the following examples:"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Send an email with frequently asked questions about your products and services to those who have expressed an interest in buying."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Collect make and model information for any integrated components. Send an instruction manual with directions for the buyer’s set-up."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "Include instructions for returning a product on the receipt or with the packaging."
+      },
+      {
+        "style": "List Paragraph",
+        "text": "What questions do you wish your potential customers were asking before they purchased your product or service? How can you share relevant information related to those questions? (For example, a company might receive returns on a printer because it only works with specific software or a specific type of computer. Addressing this question up front via an information sheet could reduce returns.)"
+      },
+      {
+        "style": "List Paragraph",
+        "text": "What questions do you wish your customers were asking so that they could get the most value from their product or service? How can you share relevant information related to those questions?"
+      },
+      {
+        "style": "Heading 1",
+        "text": "The Most Important Thing"
+      },
+      {
+        "style": "Normal",
+        "text": "More than anything, people want to feel valued and respected. Even if your organization cannot provide an expansive scope of customer service, you can be clear about how you handle different types of requests. And if your organization does provide extensive customer support, be sure you are clearly communicating the value of your offering to your customers as that’s what gets you the repeat business and loyalty you deserve."
+      },
+      {
+        "style": "Normal",
+        "text": "This checklist is 1 of 18 included in the full Requirements Discovery Checklist Pack."
+      },
+      {
+        "style": "Normal",
+        "text": "Copyright © 2026 Clear Spring Business Analysis, LLC – All Rights Reserved."
+      }
+    ],
+    "tables": [
+      {
+        "table_index": 1,
+        "rows": [
+          [
+            "Term",
+            "Definition"
+          ],
+          [
+            "Customer Support Request",
+            "A question, issue, or demand presented to an organization for resolution."
+          ],
+          [
+            "Requestor",
+            "The individual (or contact) who initiates a customer support request."
+          ],
+          [
+            "Customer",
+            "An individual or organization that provides monetary value (or another form of value) in exchange for a product or service. Often also used to refer to an individual or organization who may purchase a product or service or who has purchased a product or service in the past."
+          ]
+        ]
+      }
+    ]
+  },
+  "BAJobInterviewPrepGuide.pdf": {
+    "file": "BAJobInterviewPrepGuide.pdf",
+    "pages": [
+      {
+        "page": 1,
+        "text": " \n \n \n \n \nBridging-the-gap.com  \n \n \n \nPage 1 of 3 \nBUSINESS ANALYST JOB INTERVIEW \nPREP GUIDE \nPrepared by Laura Brandenburg, CBAP \nWHAT ARE THE MOST IMPORTANT JOB REQUIREMENTS? \nPull out skills and qualifications from the job posting. Add in any information \nyou’ve gleaned from your research and other interviews.  \nWatch for: \n Business Analyst Terminology \n Tools and Technologies \n Soft skills that may be buried or implied. \n \n \nQuick Tip: Research unfamiliar terms. It’s not uncommon for a BA to \nhave relevant experience under a different term or technique name.  \n \n"
+      },
+      {
+        "page": 2,
+        "text": " \n \n \n \n \nBridging-the-gap.com  \n \n \n \nPage 2 of 3 \nWHAT ARE YOUR MOST RELEVANT PROJECT EXPERIENCES? \nIdentify experiences from your career background that will showcase you using \nthe skills and experiences you listed above. \n \n \nQuick Tip: Practice sharing stories with specific details about your most \nrelevant experience. The details will add credibility and give your \ninterviewer the confidence that you know what you are talking about. \nBE READY FOR, “TELL ME ABOUT YOURSELF.” \nMost interviews start with this obvious question and most interviewees are \nunprepared to answer it. Write out the key points of your story here. \n \n \nQuick Tip: Keep your introduction short and end with a question such \nas “what aspect of my experience would you like to hear more about?”  \n"
+      },
+      {
+        "page": 3,
+        "text": " \n \n \n \n \nBridging-the-gap.com  \n \n \n \nPage 3 of 3 \nWHAT QUESTIONS WILL YOU ASK? \nBusiness analysts are judged just as much by their questions as their answers. \nQuestions also allow you to demonstrate what you know about the company or \nrole? What questions will you ask?  \n \n \nQuick Tip: Yes, you can ask too many questions. Watch your \ninterviewer’s body language and adjust accordingly. \n \n>> Click here to learn more about How to Start a Business Analyst Career << \n \n \nCopyright © 2018 Bridging the Gap and Laura Brandenburg – All Rights Reserved. \n \n \n"
+      }
+    ]
+  },
+  "BA_Skills_Assessment2.pdf": {
+    "file": "BA_Skills_Assessment2.pdf",
+    "pages": [
+      {
+        "page": 1,
+        "text": " \n \n  \n \n         \n \n                            Bridging-the-Gap.com \n \n \n \n \n \n               Page 1 of 10 \n              BUSINESS ANALYST SKILLS ASSESSMENT \nCreated by Laura Brandenburg, ACBA, CBAP \nABOUT THE ASSESSMENT \nThis assessment is designed for professionals looking to start business analyst careers and is intended to be used \nas a tool to help them clarify their level of awareness and experience of key business analysis techniques and \nprocesses and to make more informed decisions about training and career opportunities. \nThe first step is to complete the assessment, recognizing that some experience may have happened informally, \noutside a structured business analysis process. The second step is to identify training needs and a development \nplan.  \nASSESSMENT PART 1: THE \nBUSINESS ANALYST BLUEPRINT® \nThe Business Analyst Blueprint® covers \nthe core business analysis techniques \nthat new business analysts use to \ndiscover, analyze, and communicate \nrequirements on a typical business \nprocess or software change project. \n \n"
+      },
+      {
+        "page": 2,
+        "text": " \n \n  \n \n         \n \n                            Bridging-the-Gap.com \n \n \n \n \n \n               Page 2 of 10 \nASSESSMENT OF EACH TECHNIQUE \nSkill \nExplanation \nRelated / Variant \nTerms \nLevel of Skill \n Novice \n Intermediate \n Expert \nFormality \n Informal \n Formal \nProcess \nModels \n \nMap out a high-level process \nand use clarifying techniques \nlike swimlanes and decision \npoints. \nProcess Maps, \nWorkflow Diagrams \n \n \nBusiness \nProcess \nDocument \nCreate a detailed textual \ndocument to describe the \nbusiness process that includes \nroles, business rules, \nexceptions, entry points, and \nend points. \nBusiness Procedures, \nBusiness Workflow, \nAs Is Business \nProcess \n \n \nDiscovery \nSession \nEngage stakeholders from \nmultiple departments to \nprovide input on the current \nstate business process. \nElicitation Session, \nStakeholder Meeting \n \n \nBusiness \nProcess \nImprovement \nCreate organizational change by \nclarifying, updating, and \nimproving the business process. \nOrganizational \nchange, Continuous \nImprovement, To Be \nProcesses \n \n \nUse Cases \nCreate a detailed textual \ndocument that describes the \nuser’s interaction with a \nsoftware system to achieve a \nspecific goal. \nFunctional \nRequirements, \nSoftware \nRequirements \n \n \n"
+      },
+      {
+        "page": 3,
+        "text": " \n \n  \n \n         \n \n                            Bridging-the-Gap.com \n \n \n \n \n \n               Page 3 of 10 \nSkill \nExplanation \nRelated / Variant \nTerms \nLevel of Skill \n Novice \n Intermediate \n Expert \nFormality \n Informal \n Formal \nWireframes \nCreate a visual model of the \nuser interface. \nPrototype, User \nInterface Model, \nRendering \n \n \nRequirements \nReview & \nValidation \nCollaborate with stakeholders \nto ensure the use cases and \nwireframes represent the \nintended requirements and are \nfeasible to implement. \nRequirements \nMeeting, Design \nMeeting \n \n \nUser Stories \nA functional requirements \nmodel for communicating \nsoftware requirements in an \nagile software development \nenvironment. \nAcceptance Tests, \nProduct Backlog \n \n \nGlossary \nDocument defining key business \nterms and their definitions. \nTerminology \n \n \nEntity \nRelationship \nDiagram \nVisual model clarifying key \nbusiness concepts and how they \nrelate. \nERD, Domain Model \n \n \nSystem \nContext \nDiagram \nVisual model showing how \ninformation flows between \nsystems. \nContext Diagram, \nData Flow \n \n \n"
+      },
+      {
+        "page": 4,
+        "text": " \n \n  \n \n         \n \n                            Bridging-the-Gap.com \n \n \n \n \n \n               Page 4 of 10 \nSkill \nExplanation \nRelated / Variant \nTerms \nLevel of Skill \n Novice \n Intermediate \n Expert \nFormality \n Informal \n Formal \nData \nDictionary \nDetailed matrix identifying the \nkey attributes to be stored by \nan information system, and \nbusiness rules for each attribute \nsuch as whether it is required \nand what type of information it \ncontains. \nData Matrix, \nAttribute List \n \n \nData \nMapping \nDetailed matrix identifying how \ndata flows from one system to \nanother, common in data \nmigration and system \nintegration projects. \nData Flow, API \nSpecification, Data \nMigration \nSpecification \n \n \nNOTES \n \n"
+      },
+      {
+        "page": 5,
+        "text": " \n \n  \n \n         \n \n                            Bridging-the-Gap.com \n \n \n \n \n \n               Page 5 of 10 \nASSESSMENT PART 2: THE BUSINESS ANALYSIS PROCESS \nThe business analysis process covers the step-by-step sequence for taking a project from ambiguity to clarity, and \ndelivering a high-quality solution that actually meets the requirements. \nClick here to learn more about the business analysis process \n \n"
+      },
+      {
+        "page": 6,
+        "text": " \n \n  \n \n         \n \n                            Bridging-the-Gap.com \n \n \n \n \n \n               Page 6 of 10 \nASSESSMENT OF EXPERIENCE WITH EACH STEP OF THE BUSINESS ANALYSIS PROCESS \nSkill \nExplanation \nLevel of Skill \n Novice \n Intermediate\n Expert \nProject Sizing \n > 1 week \n >1 month \n 1-3 months\n 3+ months \nStakeholder \nEnvironment \n 1-2 stakeholders\n 3-5 stakeholders\n 6+ stakeholders \n1 - Get Oriented\n \nAbility to discover what’s needed to \nget started quickly, by clarifying the \nrole, the project, and the existing \nsystem and process capabilities. \n \n \n \n2 - Discover the \nBusiness \nObjectives \nDiscover what’s driving the project \nso you can ensure the scope \naddresses the true business need, or \nproblem to be solved. \n \n \n \n3 - Define Scope Gain agreement from the business \nand technology stakeholders on the \nproject scope – or what will be \naccomplished within the project \nconstraints. \n \n \n \n4 - Formulate \nBA Plan \nCreate a realistic and credible \nbusiness analysis plan that includes \ndeliverables, stakeholders, and \ntimelines. \n \n \n \n5 - Define \nDetailed \nRequirements \nWork through the detailed \nrequirements deliverables and \nestablish an iterative rhythm. \n \n \n \n"
+      },
+      {
+        "page": 7,
+        "text": " \n \n  \n \n         \n \n                            Bridging-the-Gap.com \n \n \n \n \n \n               Page 7 of 10 \nSkill \nExplanation \nLevel of Skill \n Novice \n Intermediate\n Expert \nProject Sizing \n > 1 week \n >1 month \n 1-3 months\n 3+ months \nStakeholder \nEnvironment \n 1-2 stakeholders\n 3-5 stakeholders\n 6+ stakeholders \n6 - Support \nTechnical \nImplementation\nEnsure the technical solution meets \nthe objectives, through \ncollaboration and user acceptance \ntesting.  \n \n \n \n7 - Help the \nBusiness \nImplement the \nSolution \nSupport the business stakeholders in \nmaking business process changes so \nthat the solution ultimately delivers \nthe intended result. \n \n \n \n8 - Assess the \nValue Created \nby the Solution \nAssess the ROI (Return on \nInvestment) of the delivered \nsolution.  \n \n \n \nAgile Business \nAnalysis \nConcepts \nApply the business analysis process \niteratively and effectively to \ncollaborate with an agile software \ndevelopment team. \n \n \n \n \n \n \n"
+      },
+      {
+        "page": 8,
+        "text": " \n \n  \n \n         \n \n                            Bridging-the-Gap.com \n \n \n \n \n \n               Page 8 of 10 \nASSESSMENT OF TRAINING NEEDS AND DEVELOPMENT PLAN \nOpportunities to Translate Informal Experience to More Formal Experience \nHighlight opportunities to apply more formal tools, templates or techniques to solidify past transferable \nexperience into a marketable business analyst skill. Often these will be the quickest wins for an aspiring business \nanalyst, to gain traction quickly with a core set of business analyst skills. Formal training or 1-1 mentoring are \nboth options. \n \nOpportunities to Gain Initial Familiarity and Experience \nHighlight opportunities to gain exposure to new concepts and start building experience. Often these tasks can be \ndone first under the direct guidance of a senior business analyst, or as part of a formal training program that \nincludes both training and skill application. \n \n"
+      },
+      {
+        "page": 9,
+        "text": " \n \n  \n \n         \n \n                            Bridging-the-Gap.com \n \n \n \n \n \n               Page 9 of 10 \nOpportunities to Gain Exposure to Additional Steps in the Business Analysis Process \nInclude opportunities to shadow or complete steps in the process that they have not seen before, or apply the \nsteps in a project of increasing significance or stakeholder complexity. For example, going from discovering the \nbusiness objectives from a single stakeholder to negotiating objectives from 3 or more stakeholders. \n \n \n \n"
+      },
+      {
+        "page": 10,
+        "text": " \n \n  \n \n         \n \n                            Bridging-the-Gap.com \n \n \n \n \n \n               Page 10 of 10 \n  ABOUT BRIDGING THE GAP \nBridging the Gap provides practical, real-world, online training to help you become a confident, sought-after \nbusiness analyst.  \nREAL-WORLD BUSINESS ANALYSIS TRAINING WITH PRACTICAL SUPPORT \n \nThe Business Analyst Blueprint® program is a 6-month \ncomprehensive program in which you will organize your work, \nupgrade your skills, and bring a fresh perspective to your business \nanalysis approach, so you know exactly what to do when on your \nsoftware projects. \nWhen you join The Business Analyst Blueprint® program, you’ll \nreceive real-world training in 12 industry-standard techniques and \nthe business analysis process framework, along with practical \nhelp, so you can apply what you learn on-the-job and be more \nsuccessful as a business analyst. \n \nLearn more at: \nhttp://www.bridging-the-gap.com/business-analyst-blueprint  \n \nQuestions? We are happy to help. Email us at info@bridging-the-gap.com. \n"
+      }
+    ]
+  }
+}
