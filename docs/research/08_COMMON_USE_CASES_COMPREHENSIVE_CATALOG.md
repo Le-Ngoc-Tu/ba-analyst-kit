@@ -12,7 +12,7 @@ Trong thực tế phát triển phần mềm (đặc biệt tại thị trườn
 Tuy nhiên, rất nhiều BA thiếu kinh nghiệm thường mắc phải các lỗi chí mạng:
 1. **Chỉ viết Happy Path (Luồng lý tưởng)** mà bỏ quên các luồng lỗi (Exception Flows: mất mạng, timeout cổng thanh toán, tài khoản bị khóa, tệp nhiễm mã độc).
 2. **Thiếu quy tắc nghiệp vụ biên (Edge Business Rules)**: Không quy định rõ số lần nhập sai mật khẩu tối đa, thời gian hết hạn mã OTP, hay cơ chế xử lý khi khách hàng chuyển khoản thừa/thiếu tiền.
-3. **Không tích hợp tiêu chuẩn kỹ thuật & pháp lý**: Bỏ quên quy định sinh trắc học khuôn mặt CCCD chip (QĐ 2345/QĐ-NHNN), bảo vệ dữ liệu cá nhân (Nghị định 13/2023/NĐ-CP), hay định dạng hóa đơn điện tử.
+3. **Không tích hợp tiêu chuẩn kỹ thuật & an toàn**: Bỏ quên quy chuẩn sinh trắc học khuôn mặt CCCD chip cho giao dịch giá trị cao, bảo vệ dữ liệu cá nhân (Data Masking), hay định dạng hóa đơn điện tử VAT.
 
 Tài liệu này đóng gói **Top 10 Use Cases phổ biến và quan trọng nhất**, phân tích chi tiết từ Actors, Tiền điều kiện, Luồng chuẩn, Các luồng rẽ nhánh, Ngoại lệ lỗi, Quy tắc nghiệp vụ và Kịch bản nghiệm thu Gherkin.
 
@@ -24,7 +24,7 @@ Tài liệu này đóng gói **Top 10 Use Cases phổ biến và quan trọng nh
 mindmap
   root((Top 10 Use Cases Phổ Biến))
     Xác Thực & Định Danh
-      UC-01: Đăng Nhập OTP & 2FA / Sinh Trắc Học QĐ2345
+      UC-01: Đăng Nhập OTP & 2FA / Sinh Trắc Học Nâng Cao
       UC-02: Định Danh Điện Tử eKYC CCCD Chip
     Giao Dịch & Dữ Liệu
       UC-03: Thanh Toán Trực Tuyến VietQR Napas
@@ -89,7 +89,7 @@ Scenario: Người dùng đăng nhập thành công với mật khẩu và OTP h
 
 ### USE CASE 02: ĐỊNH DANH ĐIỆN TỬ (eKYC) QUA THẺ CCCD GẮN CHIP & SINH TRẮC HỌC
 - **Mã Use Case**: `UC-AUTH-02`
-- **Áp dụng chuẩn**: Nghị định 13/2023/NĐ-CP & Quyết định 2345/QĐ-NHNN.
+- **Áp dụng chuẩn**: Quy chuẩn Bảo vệ Dữ liệu Cá nhân & Xác thực Sinh trắc học.
 - **Mục tiêu**: Xác thực danh tính khách hàng bằng cách đối soát khuôn mặt và dữ liệu thẻ Căn cước công dân gắn chip qua kết nối NFC hoặc OCR.
 - **Tác nhân**: Khách hàng, Dịch vụ OCR nhận diện văn bản, Dịch vụ Liveness Detection (Chống giả mạo), Cơ sở dữ liệu C06 Bộ Công An / VNeID.
 
@@ -242,7 +242,7 @@ Scenario: Người dùng đăng nhập thành công với mật khẩu và OTP h
 1. Người dùng áp dụng các điều kiện lọc tại màn hình Báo cáo quản trị (Ví dụ: Từ ngày A đến ngày B, chi nhánh TP.HCM).
 2. Người dùng nhấp vào nút "Xuất dữ liệu Excel (.xlsx)".
 3. Hệ thống kiểm tra quyền hạn (Role-based Authorization):
-   - Nếu là Nhân viên thường: Tự động che mờ (Masking) 4 số giữa của CCCD (`1234****5678`) và ẩn số tài khoản ngân hàng theo Nghị định 13.
+   - Nếu là Nhân viên thường: Tự động che mờ (Masking) 4 số giữa của CCCD (`1234****5678`) và ẩn số tài khoản ngân hàng theo quy chuẩn bảo vệ dữ liệu cá nhân.
    - Nếu là Quản trị viên cấp cao: Cho phép xuất dữ liệu nguyên bản.
 4. **Nếu tập dữ liệu nhỏ ($\le 10,000$ dòng)**: Hệ thống đóng gói dữ liệu stream trực tiếp và tải ngay về máy tính trong vòng dưới 3 giây.
 5. **Nếu tập dữ liệu lớn ($> 10,000$ dòng)**: Hệ thống chuyển tác vụ sang Background Worker xử lý ngầm, hiển thị thông báo: *"Báo cáo dung lượng lớn đang được khởi tạo. Hệ thống sẽ gửi liên kết tải về qua email của bạn trong ít phút."*

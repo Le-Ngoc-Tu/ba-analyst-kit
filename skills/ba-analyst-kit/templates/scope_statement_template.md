@@ -66,7 +66,7 @@
 
 1. **Thời hạn (Timeline)**: Giải pháp bắt buộc phải bàn giao và chạy thử nghiệm trước ngày [YYYY-MM-DD].
 2. **Công nghệ (Technology)**: Tận dụng cơ sở dữ liệu và hạ tầng máy chủ hiện có của [Tổ chức].
-3. **Pháp lý (Compliance)**: Tuân thủ quy định bảo vệ dữ liệu cá nhân theo [Nghị định/Tiêu chuẩn].
+3. **Pháp lý & Bảo mật (Compliance)**: Tuân thủ quy định an toàn bảo mật và bảo vệ dữ liệu cá nhân theo [Quy chuẩn/Tiêu chuẩn].
 
 ---
 

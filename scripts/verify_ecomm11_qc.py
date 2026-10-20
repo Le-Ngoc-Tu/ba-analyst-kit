@@ -146,7 +146,7 @@ def run_test_suite():
         ("Atomic Redis Lua Script", "Redis Lua Script"),
         ("High Concurrency SLA (10,000 TPS)", "10,000 TPS"),
         ("Low Latency (P99 <= 150ms)", "150 mili-giây"),
-        ("Decree 13/2023/ND-CP Personal Data", "13/2023/NĐ-CP"),
+        ("Data Protection & Privacy", "bảo vệ dữ liệu cá nhân"),
         ("W3C Trace Context Audit Logging", "trace_id"),
         ("Late Webhook Auto-Refund Reconciliation", "Auto-Refund")
     ]
@@ -159,40 +159,25 @@ def run_test_suite():
         record_test("TC-QC-07", "Verify Distributed Systems & Compliance Risk Controls", "PASS", 
                     "(7/7 Technical & Compliance controls verified)")
 
-    # TEST 8: Execute Automated Word DOCX Export
-    export_script = base_dir / "scripts" / "export_ba_docx.py"
-    cmd = [
-        sys.executable,
-        str(export_script),
-        "-f", str(demo_file),
-        "-o", str(docx_file)
-    ]
-    try:
-        proc = subprocess.run(cmd, capture_output=True, text=True, check=False)
-        if proc.returncode != 0:
-            record_test("TC-QC-08", "Execute Word (.docx) Export via export_ba_docx.py", "FAIL", 
-                        f"Exit code: {proc.returncode}, Stderr: {proc.stderr.strip()}")
-            errors += 1
-        else:
-            record_test("TC-QC-08", "Execute Word (.docx) Export via export_ba_docx.py", "PASS", 
-                        f"Exit code: 0, Output: {proc.stdout.strip()}")
-    except Exception as e:
-        record_test("TC-QC-08", "Execute Word (.docx) Export via export_ba_docx.py", "FAIL", str(e))
-        errors += 1
-
-    # TEST 9: Validate Exported DOCX File Size (> 30,000 bytes)
-    if not docx_file.exists():
-        record_test("TC-QC-09", "Verify generated DOCX file exists and > 30,000 bytes", "FAIL", "File does not exist")
+    # TEST 8: Verify Non-Functional SLA and Security Invariants
+    nfr_items = ["10,000 TPS", "150 mili-giây", "Rate Limiting", "Idempotency", "SHA-256"]
+    missing_nfr = [item for item in nfr_items if item not in content]
+    if missing_nfr:
+        record_test("TC-QC-08", "Verify High Concurrency NFR & Security SLA", "FAIL", f"Missing: {missing_nfr}")
         errors += 1
     else:
-        docx_size = docx_file.stat().st_size
-        if docx_size <= 30000:
-            record_test("TC-QC-09", "Verify generated DOCX file exists and > 30,000 bytes", "FAIL", 
-                        f"File size {docx_size} <= 30000 bytes")
-            errors += 1
-        else:
-            record_test("TC-QC-09", "Verify generated DOCX file exists and > 30,000 bytes", "PASS", 
-                        f"({docx_size:,} bytes > 30,000 bytes threshold)")
+        record_test("TC-QC-08", "Verify High Concurrency NFR & Security SLA", "PASS", "(5/5 NFR & Security invariants verified)")
+
+    # TEST 9: Verify Clean Markdown Compliance (No Administrative Decree Citations)
+    legal_citations = ["Nghị định 13", "NĐ 13", "Quyết định 2345", "QĐ 2345"]
+    found_citations = [c for c in legal_citations if c.lower() in content.lower()]
+    if found_citations:
+        record_test("TC-QC-09", "Verify Clean Markdown (No Administrative Citations)", "FAIL", 
+                    f"Found residual citations: {found_citations}")
+        errors += 1
+    else:
+        record_test("TC-QC-09", "Verify Clean Markdown (No Administrative Citations)", "PASS", 
+                    "(Clean Markdown specification without administrative citations)")
 
     # Summary
     print("-" * 80)

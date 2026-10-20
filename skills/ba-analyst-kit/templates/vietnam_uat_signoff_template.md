@@ -6,7 +6,7 @@
 # BIÊN BẢN NGHIỆM THU CHẤP NHẬN NGƯỜI DÙNG (UAT SIGN-OFF)
 > **Số văn bản**: `.../BBNT-UAT/[TÊN DỰ ÁN]`  
 > **Căn cứ**: Hợp đồng dịch vụ phần mềm số: `[Số Hợp Đồng]` ký ngày `[Ngày Ký]`  
-> **Áp dụng chuẩn**: Thể thức văn bản hành chính Việt Nam (Nghị định 30/2020/NĐ-CP)  
+> **Áp dụng chuẩn**: Thể thức văn bản nghiệm thu chuẩn doanh nghiệp  
 
 ---
 
@@ -56,7 +56,7 @@ Hai bên đã cùng nhau thực hiện kiểm thử chấp nhận toàn bộ cá
 ## V. KẾT LUẬN VÀ CAM KẾT CỦA HAI BÊN
 
 1. **Ý kiến của Bên A (Chủ đầu tư)**:
-   - Hệ thống phần mềm hoạt động ổn định, đáp ứng đầy đủ các yêu cầu nghiệp vụ cốt lõi và tuân thủ các quy định về bảo vệ dữ liệu cá nhân theo Nghị định 13/2023/NĐ-CP.
+   - Hệ thống phần mềm hoạt động ổn định, đáp ứng đầy đủ các yêu cầu nghiệp vụ cốt lõi và tuân thủ các quy định về an toàn thông tin & bảo vệ dữ liệu cá nhân.
    - **Bên A CHÍNH THỨC ĐỒNG Ý NGHIỆM THU GIAI ĐOẠN UAT** và cho phép đưa hệ thống vào vận hành thử nghiệm chính thức (Go-Live).
 
 2. **Cam kết của Bên B (Đơn vị phát triển)**:

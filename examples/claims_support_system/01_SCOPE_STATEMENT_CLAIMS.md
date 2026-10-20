@@ -111,7 +111,7 @@ flowchart LR
 
 | Mã (ID) | Nội Dung Vấn Đề Chưa Thống Nhất | Người Chịu Trách Nhiệm (Owner) | Hạn Cam Kết (Target Date) |
 | :---: | :--- | :--- | :---: |
-| **ISS-01** | Quyết định dung lượng tối đa cho mỗi clip video quay hiện trường (đề xuất: 60 giây, dưới 50MB) | Trưởng phòng Giám định | 2026-10-25 |
+| **ISS-01** | Thống nhất dung lượng tối đa cho mỗi clip video quay hiện trường (đề xuất: 60 giây, dưới 50MB) | Trưởng phòng Giám định | 2026-10-25 |
 
 ---
 

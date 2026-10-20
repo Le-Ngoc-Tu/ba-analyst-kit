@@ -111,7 +111,7 @@ def draw_frame(frame_idx):
         ("320 USE CASES", "12 Miền Nghiệp Vụ", (0, 242, 254)),
         ("7 TEMPLATES", "Bridging The Gap (CBAP)", (16, 185, 129)),
         ("6 WORKFLOWS", "Elicitation → UAT Sign-off", (168, 85, 247)),
-        ("VIETNAM READY", "QĐ 2345 & NĐ 13/2023", (245, 158, 11)),
+        ("SECURITY READY", "Biometrics & Data Masking", (245, 158, 11)),
     ]
 
     badge_w = 260

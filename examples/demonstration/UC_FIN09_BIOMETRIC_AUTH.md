@@ -1,7 +1,7 @@
 # ĐẶC TẢ USE CASE: XÁC THỰC SINH TRẮC HỌC KHUÔN MẶT CHO GIAO DỊCH GIÁ TRỊ CAO
 > **Mã Use Case**: `UC-FIN-09`  
 > **Trạng thái**: Approved  
-> **Áp dụng chuẩn**: Bridging The Gap (Laura Brandenburg) kết hợp Quyết định 2345/QĐ-NHNN & Nghị định 13/2023/NĐ-CP  
+> **Áp dụng chuẩn**: Bridging The Gap (Laura Brandenburg) kết hợp Quy chuẩn Xác thực Sinh trắc học & Bảo vệ Dữ liệu Cá nhân  
 > **Tài liệu nguồn**: `skills/ba-analyst-kit/references/master_use_cases_catalog.md` (Domain `FIN`)  
 
 ---
@@ -21,7 +21,7 @@
 
 ## 2. MÔ TẢ TÓM TẮT (BRIEF DESCRIPTION)
 
-Use Case này mô tả quá trình xác thực khuôn mặt người dùng khớp với dữ liệu sinh trắc học đã lưu trong chip thẻ Căn cước công dân (CCCD) khi thực hiện giao dịch chuyển tiền hoặc thanh toán có giá trị vượt ngưỡng quy định của Ngân hàng Nhà nước.
+Use Case này mô tả quá trình xác thực khuôn mặt người dùng khớp với dữ liệu sinh trắc học đã lưu trong chip thẻ Căn cước công dân (CCCD) khi thực hiện giao dịch chuyển tiền hoặc thanh toán có giá trị vượt ngưỡng quy định kiểm soát an toàn giao dịch.
 
 > **Quá trình bắt đầu khi** Khách hàng xác nhận lệnh chuyển tiền có giá trị trên 10,000,000 VNĐ hoặc giao dịch làm tổng mức chi tiêu trong ngày vượt quá 20,000,000 VNĐ, **và kết thúc khi** Hệ thống xác thực sinh trắc học thành công và chuyển lệnh thanh toán sang hệ thống xử lý giao dịch lõi (Core Banking).
 
@@ -44,7 +44,7 @@ Use Case này mô tả quá trình xác thực khuôn mặt người dùng khớ
 1. Khách hàng đã đăng nhập vào ứng dụng Mobile Banking trên thiết bị hợp lệ.
 2. Tài khoản khách hàng đã hoàn thành định danh điện tử (eKYC) với thẻ CCCD gắn chip và dữ liệu khuôn mặt gốc đã được lưu mã hóa an toàn trên hệ thống máy chủ ngân hàng.
 3. Số dư tài khoản thanh toán của khách hàng đủ để thực hiện số tiền chuyển và các khoản phí liên quan.
-4. Số tiền của giao dịch hiện tại $> 10,000,000$ VNĐ hoặc tổng giá trị giao dịch lũy kế trong ngày sau khi thực hiện lệnh này $> 20,000,000$ VNĐ (theo Quyết định 2345/QĐ-NHNN).
+4. Số tiền của giao dịch hiện tại $> 10,000,000$ VNĐ hoặc tổng giá trị giao dịch lũy kế trong ngày sau khi thực hiện lệnh này $> 20,000,000$ VNĐ (theo quy chuẩn kiểm soát giao dịch giá trị cao).
 
 ---
 
@@ -60,7 +60,7 @@ sequenceDiagram
     participant Core as Core Banking
 
     User->>App: Bấm "Xác nhận chuyển tiền" (>10 triệu VNĐ)
-    App->>Server: Kiểm tra ngưỡng giao dịch (Check Rule QĐ 2345)
+    App->>Server: Kiểm tra ngưỡng giao dịch (Check Rule Biometric Auth)
     Server-->>App: Yêu cầu xác thực sinh trắc học bắt buộc
     App->>BioSDK: Kích hoạt camera quét khuôn mặt
     BioSDK-->>User: Hiển thị khung tròn chỉ dẫn quét khuôn mặt
@@ -75,8 +75,8 @@ sequenceDiagram
 ```
 
 1. **Khách hàng**: Tại màn hình Chi tiết chuyển tiền, kiểm tra thông tin người nhận, số tiền ($>10,000,000$ VNĐ) và bấm nút "Tiếp tục".
-2. **Hệ thống (Server)**: Kiểm tra số tiền giao dịch và tổng hạn mức trong ngày. Nhận diện giao dịch thuộc diện bắt buộc xác thực sinh trắc học theo Quyết định 2345/QĐ-NHNN, gửi chỉ thị yêu cầu quét khuôn mặt về Mobile App.
-3. **Hệ thống (Mobile App)**: Hiển thị màn hình thông báo: *"Theo quy định của Ngân hàng Nhà nước, giao dịch trên 10 triệu đồng cần xác thực khuôn mặt chính chủ"* và kích hoạt Camera trước.
+2. **Hệ thống (Server)**: Kiểm tra số tiền giao dịch và tổng hạn mức trong ngày. Nhận diện giao dịch thuộc diện bắt buộc xác thực sinh trắc học theo quy chuẩn kiểm soát giao dịch giá trị cao, gửi chỉ thị yêu cầu quét khuôn mặt về Mobile App.
+3. **Hệ thống (Mobile App)**: Hiển thị màn hình thông báo: *"Theo quy chuẩn an toàn giao dịch, giao dịch trên 10 triệu đồng cần xác thực khuôn mặt chính chủ"* và kích hoạt Camera trước.
 4. **Khách hàng**: Đưa khuôn mặt vào trong khung tròn hiển thị trên màn hình điện thoại ở nơi đủ ánh sáng.
 5. **Hệ thống (SDK Sinh trắc học)**: Thực hiện kiểm tra tính sống (Passive Liveness Detection kết hợp cử động chớp mắt ngẫu nhiên) để loại trừ giả mạo.
 6. **Hệ thống (SDK Sinh trắc học)**: Trích xuất các điểm đặc trưng hình học (Feature Vector 512 chiều) của khuôn mặt, mã hóa gói tin và gửi về Máy chủ xác thực của ngân hàng.
@@ -101,7 +101,7 @@ sequenceDiagram
   2. Hiển thị chỉ dẫn: *"Vui lòng lau sạch ống kính camera trước và không đeo kính râm, khẩu trang."*
   3. Cho phép khách hàng điều chỉnh lại và bấm "Thử lại".
 
-### Luồng Xử Lý Lỗi & Ngoại Lệ (Exception Flows)
+### Luồng Xử Lý Lỗi & Ngoại LỆ (Exception Flows)
 
 - **5b. Phát hiện gian lận giả mạo khuôn mặt (Spoofing Attack / Fake Face Detected)**:
   1. SDK phát hiện hình ảnh được đưa vào là màn hình điện thoại khác phát lại video, ảnh in trên giấy, hoặc mặt nạ silicon.
@@ -129,11 +129,11 @@ sequenceDiagram
 
 | Mã Quy Tắc | Tên Quy Tắc | Diễn Giải Chi Tiết |
 | :---: | :--- | :--- |
-| **BR-FIN-01** | **Ngưỡng Giá Trị Giao Dịch Bắt Buộc** | Bắt buộc xác thực sinh trắc học khuôn mặt đối với: 1) Từng giao dịch chuyển tiền $> 10,000,000$ VNĐ; 2) Giao dịch bất kỳ làm tổng hạn mức chuyển tiền trong ngày vượt quá $20,000,000$ VNĐ; 3) Giao dịch thanh toán hàng hóa dịch vụ $> 100,000,000$ VNĐ/lần (Quyết định 2345/QĐ-NHNN). |
+| **BR-FIN-01** | **Ngưỡng Giá Trị Giao Dịch Bắt Buộc** | Bắt buộc xác thực sinh trắc học khuôn mặt đối với: 1) Từng giao dịch chuyển tiền $> 10,000,000$ VNĐ; 2) Giao dịch bất kỳ làm tổng hạn mức chuyển tiền trong ngày vượt quá $20,000,000$ VNĐ; 3) Giao dịch thanh toán hàng hóa dịch vụ $> 100,000,000$ VNĐ/lần (Quy chuẩn kiểm soát hạn mức giao dịch an toàn). |
 | **BR-FIN-02** | **Ngưỡng Độ Trùng Khớp Khuôn Mặt** | Điểm số tương đồng sinh trắc học (Biometric Match Score) giữa vector khuôn mặt trực tiếp và vector lưu từ chip CCCD phải đạt tối thiểu **$\ge 85\%$**. |
 | **BR-FIN-03** | **Tiêu Chuẩn Liveness Detection** | Thuật toán kiểm tra người thật phải đạt chứng chỉ bảo mật quốc tế ISO/IEC 30107-3 (iBeta Level 2) chống giả mạo hình thức 2D và 3D. |
 | **BR-FIN-04** | **Giới Hạn Thử Lại & Khóa An Toàn** | Khách hàng chỉ được phép thử lại tối đa 03 lần quét khuôn mặt trong một phiên giao dịch. Quá 3 lần sai liên tiếp, hệ thống tự động khóa tính năng chuyển tiền giá trị cao trong 60 phút. |
-| **BR-FIN-05** | **Bảo Vệ Dữ Liệu Sinh Trắc Học** | Không lưu trữ ảnh chụp thô (Raw Face Image) trên máy chủ ngân hàng sau khi xác thực. Chỉ lưu trữ chuỗi Vector đặc trưng được băm và mã hóa AES-256 theo quy định tại Điều 9 Nghị định 13/2023/NĐ-CP. |
+| **BR-FIN-05** | **Bảo Vệ Dữ Liệu Sinh Trắc Học** | Không lưu trữ ảnh chụp thô (Raw Face Image) trên máy chủ ngân hàng sau khi xác thực. Chỉ lưu trữ chuỗi Vector đặc trưng được băm và mã hóa AES-256 theo quy chuẩn an toàn & bảo vệ dữ liệu cá nhân. |
 
 ---
 
@@ -143,7 +143,7 @@ sequenceDiagram
 ```text
 Là một (As a): Khách hàng đang thực hiện chuyển khoản 15,000,000 VNĐ trên ứng dụng Mobile Banking
 Tôi muốn (I want): Hệ thống kích hoạt camera xác thực khuôn mặt của tôi khớp với thẻ CCCD đã đăng ký
-Để (So that): Giao dịch chuyển tiền được xử lý an toàn, đúng quy định pháp luật và tiền được gửi đến người nhận
+Để (So that): Giao dịch chuyển tiền được xử lý an toàn, đúng quy chuẩn bảo mật và tiền được gửi đến người nhận
 ```
 
 #### Tiêu chí nghiệm thu Gherkin:
@@ -152,7 +152,7 @@ Scenario: Khách hàng xác thực khuôn mặt thành công khi chuyển 15 tri
   Given Khách hàng đã đăng nhập và nhập lệnh chuyển số tiền "15,000,000" VNĐ
   And Tài khoản có số dư khả dụng "20,000,000" VNĐ
   When Khách hàng bấm "Tiếp tục"
-  Then Màn hình hiển thị thông báo yêu cầu xác thực khuôn mặt theo Quyết định 2345
+  Then Màn hình hiển thị thông báo yêu cầu xác thực khuôn mặt cho giao dịch giá trị cao
   When Khách hàng đưa khuôn mặt vào khung hình và vượt qua kiểm tra Liveness
   And Điểm so khớp khuôn mặt đạt 94.6% (vượt ngưỡng 85%)
   Then Hệ thống xử lý lệnh chuyển tiền thành công

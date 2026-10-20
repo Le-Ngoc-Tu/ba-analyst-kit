@@ -1,7 +1,7 @@
-# TỪ ĐIỂN DỮ LIỆU & ERD: PHÂN HỆ XÁC THỰC SINH TRẮC HỌC (QĐ 2345/QĐ-NHNN)
+# TỪ ĐIỂN DỮ LIỆU & ERD: PHÂN HỆ XÁC THỰC SINH TRẮC HỌC
 > **Mã tài liệu**: `DOC-DATA-FIN09-001`  
 > **Trạng thái**: Approved  
-> **Áp dụng chuẩn**: Bridging The Gap kết hợp Nghị định 13/2023/NĐ-CP & Quyết định 2345/QĐ-NHNN  
+> **Áp dụng chuẩn**: Bridging The Gap kết hợp Quy chuẩn Bảo vệ Dữ liệu Cá nhân & Xác thực Sinh trắc học  
 > **Dự án**: Ngân Hàng Số — Xác Thực Sinh Trắc Học Giao Dịch Giá Trị Cao  
 
 ---
@@ -86,7 +86,7 @@ erDiagram
 
 ---
 
-## 4. QUY TẮC BẢO MẬT DỮ LIỆU SINH TRẮC HỌC (THEO NGHỊ ĐỊNH 13/2023)
+## 4. QUY TẮC BẢO MẬT & BẢO VỆ DỮ LIỆU SINH TRẮC HỌC
 
 1. **Tuyệt đối cấm lưu ảnh khuôn mặt thô (Raw Face Image)**:
    - Các khung ảnh quét từ camera chỉ xử lý trong bộ nhớ RAM tạm thời của điện thoại để trích xuất Feature Vector 512 chiều, sau đó giải phóng bộ nhớ ngay lập tức.

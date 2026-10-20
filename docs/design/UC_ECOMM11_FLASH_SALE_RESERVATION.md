@@ -294,7 +294,7 @@ sequenceDiagram
 ### Bảo Mật & Pháp Lý Việt Nam (Security & Compliance)
 - **Mã hóa đường truyền**: 100% dữ liệu truyền nhận giữa Client, WAF và Máy chủ phải được mã hóa qua giao thức **TLS 1.3**.
 - **Chống giả mạo Webhook**: Mọi Webhook từ Cổng thanh toán bắt buộc phải được ký số điện tử (HMAC-SHA256) với Secret Key độc quyền; kiểm tra Replay Attack với Timestamp không lệch quá 300 giây.
-- **Bảo vệ dữ liệu cá nhân**: Tuân thủ nghiêm ngặt **Nghị định 13/2023/NĐ-CP** về bảo vệ dữ liệu cá nhân; thông tin thanh toán, số điện thoại, địa chỉ của người dùng phải được che mờ (Masking) trong toàn bộ nhật ký ứng dụng (Log) và bản tin giám sát.
+- **Bảo vệ dữ liệu cá nhân**: Tuân thủ nghiêm ngặt quy chuẩn bảo vệ dữ liệu cá nhân (Data Protection & Privacy); thông tin thanh toán, số điện thoại, địa chỉ của người dùng phải được che mờ (Masking) trong toàn bộ nhật ký ứng dụng (Log) và bản tin giám sát.
 
 ---
 

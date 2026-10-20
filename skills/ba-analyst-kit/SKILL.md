@@ -1,6 +1,6 @@
 ---
 name: ba-analyst-kit
-description: Bộ công cụ kỹ năng toàn diện dành cho Business Analyst (BA) theo chuẩn quốc tế Bridging The Gap (Laura Brandenburg, CBAP) kết hợp Senior Architecture & Pháp lý Việt Nam. Tích hợp trọn vòng đời 8 use cases nghiệp vụ & kiến trúc dữ liệu (Checklist, Scope Statement, Business Process, Use Case, Quality Audit, Vietnam Compliance UAT, Data Dictionary/ERD, Data Mapping/API) cùng Đại từ điển 320 Use Cases chuẩn hóa toàn ngành.
+description: Bộ công cụ kỹ năng toàn diện dành cho Business Analyst (BA) theo chuẩn quốc tế Bridging The Gap (Laura Brandenburg, CBAP) kết hợp Senior Architecture & Quy chuẩn nghiệp vụ thực chiến. Tích hợp trọn vòng đời 8 use cases nghiệp vụ & kiến trúc dữ liệu (Checklist, Scope Statement, Business Process, Use Case, Quality Audit, Enterprise UAT Sign-off, Data Dictionary/ERD, Data Mapping/API) cùng Đại từ điển 320 Use Cases chuẩn hóa toàn ngành.
 ---
 
 # BỘ KỸ NĂNG CHUYÊN GIA PHÂN TÍCH NGHIỆP VỤ (BA ANALYST KIT)
@@ -21,7 +21,7 @@ Khi nhận yêu cầu từ người dùng, Agent hãy nhận diện ý định v
 | "Thiết kế quy trình", "Vẽ sơ đồ quy trình", "Quy trình As-Is / To-Be", "Mô tả các bước nghiệp vụ" | **UC-3** | [workflow_03_process_modeling.md](file:///C:/Users/NGOCTU/Downloads/BADeliverablesCollection-BridgingTheGap/skills/ba-analyst-kit/workflows/workflow_03_process_modeling.md) | [business_process_template.md](file:///C:/Users/NGOCTU/Downloads/BADeliverablesCollection-BridgingTheGap/skills/ba-analyst-kit/templates/business_process_template.md) |
 | "Viết Use Case", "Đặc tả chức năng", "Viết User Story", "Viết tiêu chí nghiệm thu Gherkin" | **UC-4** | [workflow_04_use_case_authoring.md](file:///C:/Users/NGOCTU/Downloads/BADeliverablesCollection-BridgingTheGap/skills/ba-analyst-kit/workflows/workflow_04_use_case_authoring.md) | [use_case_template.md](file:///C:/Users/NGOCTU/Downloads/BADeliverablesCollection-BridgingTheGap/skills/ba-analyst-kit/templates/use_case_template.md) |
 | "Review tài liệu BA", "Kiểm tra chất lượng Scope/Use Case", "Đánh giá kỹ năng BA", "Audit tài liệu" | **UC-5** | [workflow_05_quality_review.md](file:///C:/Users/NGOCTU/Downloads/BADeliverablesCollection-BridgingTheGap/skills/ba-analyst-kit/workflows/workflow_05_quality_review.md) | [ba_glossary.md](file:///C:/Users/NGOCTU/Downloads/BADeliverablesCollection-BridgingTheGap/skills/ba-analyst-kit/references/ba_glossary.md) |
-| "Tuân thủ pháp lý Việt Nam", "Nghị định 13", "Quyết định 2345", "Biên bản nghiệm thu UAT", "Ký duyệt bàn giao" | **UC-6** | [workflow_06_vietnam_compliance_and_uat.md](file:///C:/Users/NGOCTU/Downloads/BADeliverablesCollection-BridgingTheGap/skills/ba-analyst-kit/workflows/workflow_06_vietnam_compliance_and_uat.md) | [vietnam_uat_signoff_template.md](file:///C:/Users/NGOCTU/Downloads/BADeliverablesCollection-BridgingTheGap/skills/ba-analyst-kit/templates/vietnam_uat_signoff_template.md) |
+| "Quy chuẩn an toàn dữ liệu & UAT", "Xác thực sinh trắc học", "Bảo vệ dữ liệu cá nhân", "Biên bản nghiệm thu UAT", "Ký duyệt bàn giao" | **UC-6** | [workflow_06_vietnam_compliance_and_uat.md](file:///C:/Users/NGOCTU/Downloads/BADeliverablesCollection-BridgingTheGap/skills/ba-analyst-kit/workflows/workflow_06_vietnam_compliance_and_uat.md) | [vietnam_uat_signoff_template.md](file:///C:/Users/NGOCTU/Downloads/BADeliverablesCollection-BridgingTheGap/skills/ba-analyst-kit/templates/vietnam_uat_signoff_template.md) |
 | "Từ điển dữ liệu", "Thiết kế CSDL", "Vẽ sơ đồ ERD", "Đặc tả thuộc tính trường", "Data Dictionary" | **UC-7** | [data_dictionary_template.md](file:///C:/Users/NGOCTU/Downloads/BADeliverablesCollection-BridgingTheGap/skills/ba-analyst-kit/templates/data_dictionary_template.md) | [data_dictionary_template.md](file:///C:/Users/NGOCTU/Downloads/BADeliverablesCollection-BridgingTheGap/skills/ba-analyst-kit/templates/data_dictionary_template.md) |
 | "Ánh xạ API", "Tích hợp hệ thống", "Data Mapping", "Đặc tả Webhook", "Chuyển đổi dữ liệu" | **UC-8** | [data_mapping_template.md](file:///C:/Users/NGOCTU/Downloads/BADeliverablesCollection-BridgingTheGap/skills/ba-analyst-kit/templates/data_mapping_template.md) | [data_mapping_template.md](file:///C:/Users/NGOCTU/Downloads/BADeliverablesCollection-BridgingTheGap/skills/ba-analyst-kit/templates/data_mapping_template.md) |
 | "Tra cứu use case mẫu", "Lấy case kinh điển", "Tìm kịch bản mẫu", "Tra cứu danh mục use case" | **CATALOG** | [master_use_cases_catalog.md](file:///C:/Users/NGOCTU/Downloads/BADeliverablesCollection-BridgingTheGap/skills/ba-analyst-kit/references/master_use_cases_catalog.md) | [common_use_cases_library.md](file:///C:/Users/NGOCTU/Downloads/BADeliverablesCollection-BridgingTheGap/skills/ba-analyst-kit/references/common_use_cases_library.md) |
@@ -44,7 +44,7 @@ Khi nhận yêu cầu từ người dùng, Agent hãy nhận diện ý định v
    - Đặc tả chặt chẽ từng luồng rẽ nhánh và ngoại lệ (Alternate Flows 3a, 3b, Exception Flows).
    - Đồng thời bẻ nhỏ thành các Agile User Stories có tiêu chí nghiệm thu định dạng **Gherkin (`Given... When... Then...`)**.
 6. **Kiến Trúc Dữ Liệu Tường Minh (Data Modeling Discipline)**:
-   - Trước khi lập trình, bắt buộc phải có Từ điển dữ liệu (`Data Dictionary`) chuẩn hóa kiểu dữ liệu, ràng buộc validation, và chính sách che giấu dữ liệu nhạy cảm (Data Masking theo NĐ 13/2023).
+   - Trước khi lập trình, bắt buộc phải có Từ điển dữ liệu (`Data Dictionary`) chuẩn hóa kiểu dữ liệu, ràng buộc validation, và chính sách che giấu dữ liệu nhạy cảm (Data Masking & Bảo vệ dữ liệu nhạy cảm).
 
 ---
 
@@ -72,7 +72,7 @@ Tham khảo bảng tra cứu chi tiết tại: [ba_glossary.md](file:///C:/Users
   - [business_process_template.md](file:///C:/Users/NGOCTU/Downloads/BADeliverablesCollection-BridgingTheGap/skills/ba-analyst-kit/templates/business_process_template.md)
   - [use_case_template.md](file:///C:/Users/NGOCTU/Downloads/BADeliverablesCollection-BridgingTheGap/skills/ba-analyst-kit/templates/use_case_template.md)
   - [elicitation_checklist_template.md](file:///C:/Users/NGOCTU/Downloads/BADeliverablesCollection-BridgingTheGap/skills/ba-analyst-kit/templates/elicitation_checklist_template.md)
-  - [vietnam_uat_signoff_template.md](file:///C:/Users/NGOCTU/Downloads/BADeliverablesCollection-BridgingTheGap/skills/ba-analyst-kit/templates/vietnam_uat_signoff_template.md) *(Mẫu biên bản nghiệm thu chuẩn Nghị định 30)*
+  - [vietnam_uat_signoff_template.md](file:///C:/Users/NGOCTU/Downloads/BADeliverablesCollection-BridgingTheGap/skills/ba-analyst-kit/templates/vietnam_uat_signoff_template.md) *(Mẫu biên bản nghiệm thu chuẩn thể thức doanh nghiệp)*
   - [data_dictionary_template.md](file:///C:/Users/NGOCTU/Downloads/BADeliverablesCollection-BridgingTheGap/skills/ba-analyst-kit/templates/data_dictionary_template.md) *(Mẫu Từ điển dữ liệu & ERD)*
   - [data_mapping_template.md](file:///C:/Users/NGOCTU/Downloads/BADeliverablesCollection-BridgingTheGap/skills/ba-analyst-kit/templates/data_mapping_template.md) *(Mẫu Đặc tả tích hợp API & Ánh xạ dữ liệu)*
 - 📂 **Workflows chi tiết (6 Quy trình)**:
@@ -81,7 +81,7 @@ Tham khảo bảng tra cứu chi tiết tại: [ba_glossary.md](file:///C:/Users
   - [workflow_03_process_modeling.md](file:///C:/Users/NGOCTU/Downloads/BADeliverablesCollection-BridgingTheGap/skills/ba-analyst-kit/workflows/workflow_03_process_modeling.md)
   - [workflow_04_use_case_authoring.md](file:///C:/Users/NGOCTU/Downloads/BADeliverablesCollection-BridgingTheGap/skills/ba-analyst-kit/workflows/workflow_04_use_case_authoring.md)
   - [workflow_05_quality_review.md](file:///C:/Users/NGOCTU/Downloads/BADeliverablesCollection-BridgingTheGap/skills/ba-analyst-kit/workflows/workflow_05_quality_review.md)
-  - [workflow_06_vietnam_compliance_and_uat.md](file:///C:/Users/NGOCTU/Downloads/BADeliverablesCollection-BridgingTheGap/skills/ba-analyst-kit/workflows/workflow_06_vietnam_compliance_and_uat.md) *(Thẩm định pháp lý VN & Ký UAT)*
+  - [workflow_06_vietnam_compliance_and_uat.md](file:///C:/Users/NGOCTU/Downloads/BADeliverablesCollection-BridgingTheGap/skills/ba-analyst-kit/workflows/workflow_06_vietnam_compliance_and_uat.md) *(Quy chuẩn an toàn dữ liệu, xác thực & Ký UAT)*
 - 📂 **Thư viện tri thức tham chiếu (3 Nguồn)**:
   - [ba_glossary.md](file:///C:/Users/NGOCTU/Downloads/BADeliverablesCollection-BridgingTheGap/skills/ba-analyst-kit/references/ba_glossary.md): Từ điển đối chiếu thuật ngữ Anh - Việt.
   - [common_use_cases_library.md](file:///C:/Users/NGOCTU/Downloads/BADeliverablesCollection-BridgingTheGap/skills/ba-analyst-kit/references/common_use_cases_library.md): Thư viện chi tiết Top 10 Use Cases kiến trúc nền tảng.
@@ -89,19 +89,15 @@ Tham khảo bảng tra cứu chi tiết tại: [ba_glossary.md](file:///C:/Users
 
 ---
 
-## 6. BỘ CÔNG CỤ TỰ ĐỘNG HÓA SOẠN THẢO & XUẤT TÀI LIỆU (DOCUMENT AUTOMATION TOOLS)
+## 6. BỘ CÔNG CỤ TỰ ĐỘNG HÓA SOẠN THẢO & KIỂM ĐỊNH (AUTOMATION & VERIFICATION TOOLS)
 
 Agent và BA có thể gọi thực thi trực tiếp các script tự động hóa sau trong terminal:
 
-1. **Xuất tài liệu Word (.docx) chuẩn thể thức Việt Nam (Nghị định 30/2020/NĐ-CP)**:
-   ```powershell
-   # Xuất 1 file markdown cụ thể sang file Word chuyên nghiệp (Font Times New Roman, căn lề chuẩn 30-20-20-20)
-   python scripts/export_ba_docx.py -f "duong/dan/file.md" -o "dist/docx/output.docx"
-
-   # Hoặc tự động xuất hàng loạt toàn bộ tài liệu mẫu và template
-   python scripts/export_ba_docx.py --all
-   ```
-2. **Sinh bảng đặc tả giao diện UI & Wireframe Layout kèm validation Việt Nam (CCCD, SĐT, MST, VND)**:
+1. **Sinh đặc tả giao diện UI & Wireframe Layout kèm validation Việt Nam (CCCD, SĐT, MST, VNĐ)**:
    ```powershell
    python scripts/generate_ui_spec.py
+   ```
+2. **Kiểm tra tính toàn vẹn và hợp chuẩn của bộ công cụ BA**:
+   ```powershell
+   python scripts/run_full_verification.py
    ```

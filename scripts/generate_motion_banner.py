@@ -121,7 +121,7 @@ def render_slide_1(draw, progress):
     cards = [
         ("320 USE CASES", "12 Miền nghiệp vụ chuẩn hóa toàn ngành", "Bao quát 95% nghiệp vụ phần mềm", (0, 242, 254)),
         ("8 LIVING DELIVERABLES", "Trọn vòng đời phân tích từ A-Z", "Scope, Swimlane, UC, ERD, UAT", (16, 185, 129)),
-        ("VIETNAM COMPLIANCE", "QĐ 2345, NĐ 13/2023, NĐ 30/2020", "Sinh trắc học CCCD & Xuất Word", (245, 158, 11))
+        ("VIETNAM COMPLIANCE", "Quy chuẩn Sinh trắc & Data Masking", "An toàn dữ liệu & UAT Sign-off", (245, 158, 11))
     ]
     card_w = 335
     for i, (head, line1, line2, col) in enumerate(cards):
@@ -151,7 +151,7 @@ def render_slide_2(draw, progress):
         ("UC-3: Business Process", "Quy trình As-Is & To-Be kèm sơ đồ Mermaid Swimlane 4 làn"),
         ("UC-4: Use Case & User Story", "Happy Path, 3 Alternate Flows, 4 Exception Flows & Gherkin AC"),
         ("UC-5: Quality & Audit", "Ma trận kiểm toán chất lượng tài liệu theo Rubric Novice-Expert"),
-        ("UC-6: Vietnam UAT Sign-off", "Biên bản nghiệm thu kỹ thuật theo thể thức Nghị định 30/2020"),
+        ("UC-6: Vietnam UAT Sign-off", "Biên bản nghiệm thu kỹ thuật chuẩn thể thức doanh nghiệp"),
         ("UC-7: Data Dictionary & ERD", "Thuộc tính CSDL, validation rules, Data Masking & Mermaid ERD"),
         ("UC-8: API Data Mapping", "Ánh xạ Payload 2 chiều, Webhook đối soát, System Context")
     ]
@@ -206,28 +206,28 @@ def render_slide_3(draw, progress):
 
 def render_slide_4(draw, progress):
     # SLIDE 4: Vietnam Legal & Regulatory Ready
-    draw.text((70, 65), "LOCALIZED COMPLIANCE & LEGAL INVARIANTS", fill=(245, 158, 11), font=FONT_KICKER)
-    draw.text((70, 88), "Hệ Sinh Thái Pháp Lý & Quy Chuẩn Việt Nam", fill=(255, 255, 255), font=FONT_TITLE)
-    draw.text((70, 140), "Tự động áp dụng các quy chuẩn bắt buộc của Ngân hàng Nhà nước và Chính phủ Việt Nam", fill=(165, 195, 230), font=FONT_SUBTITLE)
+    draw.text((70, 65), "LOCALIZED COMPLIANCE & SAFETY INVARIANTS", fill=(245, 158, 11), font=FONT_KICKER)
+    draw.text((70, 88), "Quy Chuẩn An Toàn, Dữ Liệu & Nghiệm Thu", fill=(255, 255, 255), font=FONT_TITLE)
+    draw.text((70, 140), "Tự động tích hợp kịch bản kiểm soát rủi ro, bảo vệ thông tin cá nhân và nghiệm thu thực tế", fill=(165, 195, 230), font=FONT_SUBTITLE)
 
     pillars = [
-        ("Quyết Định 2345/QĐ-NHNN", "SINH TRẮC HỌC KHUÔN MẶT CHIP CCCD", [
+        ("Xác Thực Sinh Trắc Học", "KIỂM SOÁT GIAO DỊCH GIÁ TRỊ CAO", [
             "Bắt buộc xác thực Face khớp chip cho GD > 10M VNĐ/lần",
             "Cộng dồn > 20M VNĐ/ngày bắt buộc sinh trắc học",
             "Tiêu chuẩn chống giả mạo Liveness iBeta Level 2",
             "Khóa an toàn 60 phút khi quét sai quá 3 lần liên tiếp"
         ], (239, 68, 68)),
-        ("Nghị Định 13/2023/NĐ-CP", "BẢO VỆ DỮ LIỆU CÁ NHÂN (PDPD)", [
+        ("Bảo Vệ Dữ Liệu Cá Nhân", "DATA MASKING & PRIVACY", [
             "Đồng ý tường minh (Explicit Consent - không tick sẵn)",
             "Chính sách che mờ (Data Masking) số CCCD và SĐT",
             "Quyền rút lại sự đồng ý & Xóa dữ liệu vĩnh viễn",
             "Cấm tuyệt đối lưu ảnh chụp khuôn mặt thô sau eKYC"
         ], (0, 242, 254)),
-        ("Nghị Định 30/2020/NĐ-CP", "THỂ THỨC VĂN BẢN HÀNH CHÍNH", [
-            "Tự động xuất file Word (.docx) chuẩn thể thức VN",
-            "Font Times New Roman 13pt chuẩn mực",
-            "Căn lề chuẩn: Trái 30mm, Phải 20mm, Trên 20mm, Dưới 20mm",
-            "Bảng biểu zebra Navy chuyên nghiệp cho sếp duyệt"
+        ("Nghiệm Thu Doanh Nghiệp", "UAT SIGN-OFF PROTOCOL", [
+            "Biên bản bàn giao chuẩn thể thức doanh nghiệp",
+            "Ma trận kịch bản nghiệm thu 100% Gherkin AC",
+            "Phân loại Defect Triage: Critical, Major, Minor",
+            "Cam kết bảo hành và điều kiện Go-Live minh bạch"
         ], (16, 185, 129))
     ]
 
@@ -253,11 +253,11 @@ def render_slide_5(draw, progress):
     draw.text((70, 140), "Nghiệm thu bằng chứng thực nghiệm (Empirical Evidence) - 100% Green Test Runner", fill=(165, 195, 230), font=FONT_SUBTITLE)
 
     tools = [
-        ("export_ba_docx.py", "XUẤT FILE WORD .DOCX CHUẨN NGHỊ ĐỊNH 30", [
-            "Chuyển đổi Markdown sang Word chuyên nghiệp",
-            "Tự động định dạng bảng zebra Navy, font Times New Roman 13pt",
-            "Lệnh: python scripts/export_ba_docx.py -f file.md -o out.docx",
-            "Đã xuất thành công 15+ tài liệu mẫu trong thư mục dist/docx/"
+        ("7 Templates Chuẩn", "ĐỊNH DẠNG MARKDOWN & MERMAID CHUYÊN NGHIỆP", [
+            "Tuyên bố phạm vi, Quy trình Swimlane, Đặc tả Use Case",
+            "Từ điển dữ liệu CSDL, ERD, Ánh xạ API Data Mapping",
+            "Biên bản nghiệm thu UAT & Checklist khơi gợi yêu cầu",
+            "Tương thích 100% với AI Coding Agent & Markdown viewer"
         ], (16, 185, 129)),
         ("generate_ui_spec.py", "SINH ĐẶC TẢ GIAO DIỆN & ASCII WIREFRAME", [
             "Phác thảo ASCII wireframe trực quan ngay trong tài liệu",

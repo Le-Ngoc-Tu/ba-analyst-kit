@@ -15,12 +15,11 @@ def verify_demonstration():
     print("=== VERIFYING DEMONSTRATION DELIVERABLES (UC-FIN-09) ===")
     base_dir = Path(__file__).resolve().parent.parent
     demo_dir = base_dir / "examples" / "demonstration"
-    docx_dir = base_dir / "dist" / "docx"
 
     errors = 0
 
     # 1. Verify UC-FIN-09 Markdown Specification
-    uc_file = demo_dir / "UC_FIN09_BIOMETRIC_AUTH_QD2345.md"
+    uc_file = demo_dir / "UC_FIN09_BIOMETRIC_AUTH.md"
     if not uc_file.exists():
         print(f"[FAIL] Missing {uc_file}")
         return 1
@@ -43,11 +42,11 @@ def verify_demonstration():
         "Then",
         "BR-FIN-01",
         "BR-FIN-02",
-        "2345/QĐ-NHNN",
-        "13/2023/NĐ-CP"
+        "xác thực sinh trắc học",
+        "Liveness Detection"
     ]
     for sec in required_uc_sections:
-        if sec not in uc_text:
+        if sec.lower() not in uc_text.lower():
             print(f"[FAIL] UC-FIN-09 missing required keyword or section: '{sec}'")
             errors += 1
         else:
@@ -64,7 +63,7 @@ def verify_demonstration():
         "## 1. THÔNG TIN TÀI LIỆU",
         "## 2. SƠ ĐỒ MỐI QUAN HỆ THỰC THỂ",
         "## 3. TỪ ĐIỂN THUỘC TÍNH DỮ LIỆU",
-        "## 4. QUY TẮC BẢO MẬT DỮ LIỆU SINH TRẮC HỌC",
+        "## 4. QUY TẮC BẢO MẬT & BẢO VỆ DỮ LIỆU SINH TRẮC HỌC",
         "erDiagram",
         "BIOMETRIC_VERIFICATION_LOG",
         "match_score",
@@ -80,25 +79,12 @@ def verify_demonstration():
             print(f"[PASS] Data Dict verified: {sec:<35}")
     print(f"[PASS] Data Dict verified ({dict_file.stat().st_size:,} bytes)")
 
-    # 3. Verify Word (.docx) outputs
-    expected_docx = [
-        "UC_FIN09_BIOMETRIC_AUTH_QD2345.docx",
-        "DATA_DICT_FIN09_BIOMETRIC.docx"
-    ]
-    for d in expected_docx:
-        p = docx_dir / d
-        if not p.exists() or p.stat().st_size < 10000:
-            print(f"[FAIL] Missing or corrupted docx: {d}")
-            errors += 1
-        else:
-            print(f"[PASS] Word document verified: {d:<35} | {p.stat().st_size:,} bytes")
-
     print("-" * 75)
     if errors == 0:
         print(">>> ALL DEMONSTRATION DELIVERABLES VERIFIED: EXIT CODE 0 <<<")
         return 0
     else:
-        print(f">>> FAILED WITH {errors} ERRORS <<<")
+        print(f">>> DEMONSTRATION VERIFICATION FAILED WITH {errors} ERRORS <<<")
         return 1
 
 if __name__ == "__main__":

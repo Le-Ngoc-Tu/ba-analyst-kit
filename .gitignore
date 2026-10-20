@@ -6,9 +6,7 @@ __pycache__/
 .Python
 build/
 develop-eggs/
-# Allow dist/docx/ for exported deliverables
-!dist/docx/
-!dist/docx/*.docx
+dist/
 downloads/
 eggs/
 .eggs/
@@ -27,7 +25,11 @@ venv/
 env/
 ENV/
 
-# Temporary Generation Frames
+# Office & PDF Documents (Markdown-only source of truth)
+*.docx
+*.pdf
+
+# Temporary Generation Frames & Cache
 temp_frames/
 *.tmp
 

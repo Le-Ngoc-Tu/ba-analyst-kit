@@ -19,7 +19,7 @@ REQUIRED_DOCS = [
     ("04_REQUIREMENTS_CHECKLIST_DEEP_DIVE.md", 2500, ["Scope of Service", "Triage & Routing", "Addressing Requests", "Monitoring"]),
     ("05_BA_METHODOLOGY_AND_SKILLS_ASSESSMENT.md", 2500, ["Get Oriented", "Discover Business Objectives", "Define Scope", "Novice"]),
     ("06_BILINGUAL_BA_GLOSSARY.md", 2500, ["Scope Creep", "Happy Path", "Swimlane", "Acceptance Criteria"]),
-    ("07_VIETNAM_BA_ECOSYSTEM_AND_REGULATIONS.md", 2500, ["Nghị định 13", "Quyết định 2345", "Luật Giao dịch điện tử", "Nghị định 30"]),
+    ("07_VIETNAM_BA_ECOSYSTEM_AND_REGULATIONS.md", 2500, ["bảo vệ dữ liệu cá nhân", "sinh trắc học", "chữ ký số", "thể thức văn bản"]),
     ("08_COMMON_USE_CASES_COMPREHENSIVE_CATALOG.md", 2500, ["UC-AUTH-01", "VietQR", "eKYC", "Audit Trail", "Gherkin"]),
 ]
 
